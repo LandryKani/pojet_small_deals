@@ -1,0 +1,61 @@
+export const favoritesData =[{
+    link:"advert",
+    image_annonce: "/img/im1.jpg",
+    title: "Titre de l'annonce",
+    // prices:[{cfa:"45"}, {btc:"55"},{euro:"100"}],
+    price1: "30000",
+    price2: "49,68",
+    price3: "42,22",
+    reduction: "15",
+    time: "2 months ago",
+    name: "Viazizashop",
+    location: "baham, Ouest"
+  },
+  {
+    link:"advert",
+    image_annonce: "/img/im4.jpg",
+    title: "Titre de l'annonce",
+    price1: "30000",
+    price2: "49,68",
+    price3: "42,22",
+    reduction: "15",
+    time: "2 months ago",
+    name: "Viazizashop",
+    location: "baham, Ouest"
+  },
+  {
+    link:"advert",
+    image_annonce: "/img/im6.jpg",
+    title: "Titre de l'annonce",
+    price1: "30000",
+    price2: "49,68",
+    price3: "42,22",
+    reduction: "15",
+    time: "2 months ago",
+    name: "Viazizashop",
+    location: "baham, Ouest"
+  },
+  {
+    link:"advert",
+    image_annonce: "/img/im7.jpg",
+    title: "Titre de l'annonce",
+    price1: "30000",
+    price2: "49,68",
+    price3: "42,22",
+    reduction: "15",
+    time: "2 months ago",
+    name: "Viazizashop",
+    location: "baham, Ouest"
+  },
+  {
+    link:"advert",
+    image_annonce: "/img/im8.jpg",
+    title: "Titre de l'annonce",
+    price1: "30000",
+    price2: "49,68",
+    price3: "42,22",
+    reduction: "15",
+    time: "2 months ago",
+    name: "Viazizashop",
+    location: "baham, Ouest"
+  }];

@@ -1,0 +1,236 @@
+/*************************************style de l'entête du notement la barre de recherche*******************************************/
+
+
+.container__search .bars {
+    /* margin-top: 10px; */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* .header-search .filter-search {
+    position: relative;
+    left: 1000%;
+
+} */
+
+.container__search .input-icon {
+    width: 100%;
+    padding: 3px;
+    text-align: left;
+    box-shadow: 5px 5px 5px #0000001a;
+    background: #fff;
+    border-radius: 100px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container__search .input-search {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.fa-search {
+    align-items: center;
+    width: 23px;
+    margin: 10px;
+    padding: auto;
+}
+
+
+
+.btn-search-filter {
+    padding: 8px;
+    width: 90%;
+    border: 1px solid #D8D8D8;
+    border-radius: 100px;
+    margin: 10px 5px;
+    border: none;
+    background-color: var(--color-secondary);
+    color: #fff;
+    font-family: var(--font-secondary), sans-serif;
+
+}
+
+.container__search .item h4 {
+    font-family: var(--font-family-primary), sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 30px;
+}
+
+
+.close-btn {
+    position: absolute;
+    color: rgb(122, 121, 121);
+    font-size: 20px;
+    right: 0;
+    margin: 25px;
+    cursor: pointer;
+
+}
+
+
+
+
+/***********************************************************fin de la barre de recherche*************************************/
+
+/***********************************************************debut de la grille de marchants*************************************/
+
+
+
+.container-merchant {
+    /************ici c'est le grand contenant, celui qui contient le titre let les marchants***************/
+    width: 100%;
+
+}
+
+/* .container-merchant .merchants {
+    background-color: #fff;
+    width: 82%;
+  } */
+
+/****************ici c'est le style de l'entete de la liste des marchants**************/
+.merchant h4,
+.merchant p {
+    color: #1C0A0A;
+    font-family: var(--font-secondary), sans-serif;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.container-merchant .merchant h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.container-merchant .merchands-found {
+    margin: 30px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: var(--font-family-primary), sans-serif;
+    color: #1C0A0A;
+
+}
+
+.container-merchant .count-merchants {
+    color: var(--color-secondary);
+}
+
+/***************************************************c'est fini l'ente, passons à la grille de contenu******************************/
+
+
+
+.grid-merchants {
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+}
+
+
+
+.grid-merchants .merchant {
+    /*****************style de chaque bloc de marchants*************/
+    color: rgb(76, 74, 74);
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 14px;
+    max-width: 300px;
+
+}
+
+.container-merchant .grid-merchants .btn-consultate:hover {
+    background: rgb(254, 241, 241);
+}
+
+@media only screen and (max-width: 743px) {
+    .container-merchant .grid-merchants {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        /*********alignons nos éléments avec les grids***********/
+
+        grid-gap: 20px;
+
+    }
+}
+
+
+.grid-merchants .merchant .stars-button {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+}
+
+.stars-div {
+    width: 60%;
+}
+
+.grid-merchants .merchant .stars {
+    display: flex;
+
+}
+
+.grid-merchants .merchant .stars {
+    list-style-type: none;
+    color: #FF9F66;
+}
+
+.container-merchant .merchants-image {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.container-merchant a{
+    color: var(--color-primary);
+}
+
+.container-merchant .merchant h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.grid-merchants .description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.container-merchant .grid-merchants .btn-consultate {
+    background-color: #fff;
+    color: var(--color-secondary);
+    font-size: 12px;
+    font-weight: 600;
+    /* line-height: 22px; */
+    font-family: var(--font-secondary), sans-serif;
+    border: none;
+    padding: 5px;
+
+  }
+
+.grid-merchants .btn-consultate a {
+    color: var(--color-secondary);
+}
+
+.btn-const {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    text-align: right;
+
+}
+/* .stars-button .stars li{
+    width: 18%;
+} */
+
+
+/***********************Nous avons fini avec la grille listant les marchants******************/

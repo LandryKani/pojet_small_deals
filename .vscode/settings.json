@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": "planbcoding.vscode-react-refactor",
+    "html.format.indentInnerHtml": false
+}

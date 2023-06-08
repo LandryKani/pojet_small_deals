@@ -1,0 +1,102 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.accordion {
+    max-width: 1000px;
+    margin: 80px auto;
+    background-color: #F4F5F7;
+}
+
+.accordion-items::after {
+    background-color: #F4F5F7;
+    color: black;
+    margin: 10px 0;
+    min-width: 5000px;
+}
+
+.accordion-items.active::after {
+    background-color: #E4E7EC;
+    color: black;
+    margin: 10px 0;
+}
+
+.accordion-item-header {
+    padding: 15px 0px 20px 50px;
+    min-height: 30px;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header {
+    padding: 22px;
+}
+
+.accordion-item-header .icon-accordion {
+    font-size: 20px;
+    position: absolute;
+    right: 31px;
+    transition: transform 0.2s ease-in-out;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-item-header.active .icon-accordion {
+    transform: rotate(45deg);
+    background: #000;
+    color: #fff;
+}
+
+
+.accrodion-item-body {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accrodion-item-body .close {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    text-align: left;
+    margin-left: 50px;
+    padding: 15px;
+    line-height: 28px;
+}
+
+.accordion-item-header .number-accordion {
+    font-size: 30px;
+    margin-left: -30px;
+    padding: 19px;
+    color: #D8D8D8;
+}
+
+@media(max-width:767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .accordion-item-header {
+        padding: 0;
+    }
+
+    .accordion-item-body-content {
+        margin-left: 0;
+    }
+
+    .accordion-item-header .number-accordion {
+        margin-left: 0;
+    }
+}

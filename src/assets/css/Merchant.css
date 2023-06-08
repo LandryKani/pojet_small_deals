@@ -1,0 +1,122 @@
+.filter__merchant__view {
+    margin: 20px 0;
+}
+
+.filter__merchant__view .bars {
+    cursor: pointer;
+}
+
+.container-btn {
+    width: 91%;
+    padding-top: 20px;
+}
+
+
+.mouse-over-contain button {
+    padding: 10px;
+    font-family: var(--font-family-primary);
+    color: var(--color-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.mouse-over-contain button:hover {
+    background-color: var(--color-secondary);
+    color: #fff;
+    transition: .8s;
+}
+
+.mouse-over-contain button a:hover {
+    color: #fff;
+}
+
+.mouse-over-contain div {
+    justify-content: space-around;
+    padding: 20px;
+    color: #fff;
+}
+
+.mouse-over-contain div a {
+    color: #fff;
+}
+
+.grid-merchants-view .merchant:hover .mouse-over {
+    bottom: 0%;
+}
+
+
+
+
+/***********************************************************fin de la barre de recherche*************************************/
+
+/***********************************************************debut de la grille de marchants*************************************/
+
+
+.container-merchant {
+    /************ici c'est le grand contenant, celui qui contient le titre let les marchants***************/
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container-merchant .merchants-view {
+    background-color: #fff;
+    width: 82%;
+}
+
+
+.grid-merchants-view .merchant {
+    /*****************style de chaque bloc de marchants*************/
+    color: rgb(76, 74, 74);
+    background-color: #fff;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.029);
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.grid-merchants-view .merchants-image {
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+.merchant-detail {
+    padding: 0 20px;
+}
+
+.annonce-title {
+    font-family: var(--font-family-primary), serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.merchant .price-infos h6 {
+    font-family: var(--font-family-primary), serif;
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 500;
+    color: var(--color-secondary);
+
+}
+
+.price-infos span {
+    font-family: var(--font-family-primary), serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    color: var(--third-color);
+}
+
+.grid-merchants-view .merchant {
+    background-color: #f4f5f7;
+}
+
+.display-none {
+    display: none;
+}

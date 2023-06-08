@@ -1,0 +1,351 @@
+.checkout {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.color-blue {
+    color: #1660CF;
+}
+
+.checkout form {
+    text-align: -webkit-center;
+}
+
+.checkout h1 {
+    color: #70869B;
+}
+
+.checkout .block__payement_methode {
+    max-width: 700px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px #cbcbcb;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.checkout .block__payement_methode h2 {
+    margin: 20px 0;
+}
+
+.checkout .block__payement_methode .display-block {
+    display: block !important;
+}
+
+.checkout .block__payement_methode h2,
+label {
+    font-weight: bold;
+}
+
+.checkout .block__payement_methode .item_choice,
+.item_choice_cart,
+.radio_logo,
+.logo_payment,
+.radio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout .block__payement_methode .radio_logo{
+    gap: 20px;
+}
+
+
+.checkout input[type="radio"]{
+    display: none;
+}
+.checkout input[type="radio"]:checked + label {
+    background-color: #cadfff;
+    border-color: #1660CF;
+}
+.checkout .cart_hide{
+    display: none;
+}
+.checkout input[type="radio"]:checked + label .credit_cart, .credit_cart .bloc-field label{
+    background-color: #cadfff;
+    border-color: #1660CF;
+}
+.checkout input[type="radio"]:checked + label .cart_hide{
+    display: block;
+}
+.checkout input[type="radio"]:checked + label .cart_label{
+    background-color: #cadfff;
+    border-color: #1660CF;
+}
+.checkout input[type="radio"]:checked + label input{
+    background-color: #cadfff;
+    border:1px solid #989899;
+}
+.checkout input[type="radio"]:checked + label input:focus{
+    border-color: #1660CF;
+}
+
+.checkout .block__payement_methode .radio::before {
+    content:'';
+    height: 10px;
+    width: 10px;
+    border: 3px solid #1660CF;
+    border-radius: 50%;
+}
+
+.checkout input[type="radio"]:checked + label .radio::before {
+    height: 9px;
+    width: 9px;
+    border: 4px solid white;
+    background-color: #1660CF;
+}
+
+.checkout .block__payement_methode .item_choice_cart {
+    margin-bottom: 20px;
+}
+
+.checkout .block__payement_methode .logo_payment {
+    gap: 10px;
+}
+
+.checkout .block__payement_methode .logo_payment_img {
+    max-height: 40px;
+    max-width: 50px;
+    border: 1px solid #d0d2d4;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.checkout .block__payement_methode .logo_payment_img0 {
+    max-height: 40px;
+    max-width: 50px;
+    border: 1px solid #d0d2d4;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.checkout .block__payement_methode .visa {
+    padding: 6px;
+}
+
+.checkout .block__payement_methode .radio {
+    gap: 5px;
+}
+
+.checkout .block__payement_methode .item_choice p{
+    font-weight: 500;
+}
+
+
+.checkout .block__payement_methode .item_choice,
+.credit_cart {
+    margin: 10px 0;
+    width: 100%;
+    border: 2px solid #dbe1e7;
+    gap: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.checkout .block__payement_methode .card__information {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+
+}
+
+.checkout .block__payement_methode .card__information .bloc-field {
+    display: grid;
+    margin: 10px 0;
+    padding: 0 16px;
+}
+
+
+.checkout .block__payement_methode .card__information input {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #d5d9de;
+    padding: 25px 12px;
+    font-size: 20px;
+    color: #3e3e3e;
+}
+
+.checkout .block__payement_methode .card__information label {
+    position: relative;
+    top: 9px;
+    left: 10px;
+    background-color: white;
+    padding-inline: 15px;
+    width: fit-content;
+    color: #828282;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.checkout .block__payement_methode .card__information a {
+    display: flex;
+    align-items: center;
+}
+
+.lock {
+    border: 1px solid #1660CF;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.checkout .order__summary {
+    margin-bottom: 50px;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px #cbcbcb;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.checkout .order__summary h2 {
+    margin-bottom: 30px;
+}
+
+.checkout .fa-star:before {
+    content: "\f005";
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.checkout .order__summary .user_price {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+.checkout .order__summary .purple {
+    color: #6674BB;
+    margin-left: 30px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.checkout .order__summary .select_name {
+    width: 100%;
+    border-radius: 50px;
+    height: 60px;
+    border: 1px solid #D8D8D8;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.checkout .order__summary .more__info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(39%, 1fr));
+}
+
+.checkout .order__summary .more__info .more__info_item {
+    border: 1px solid #F4F5F7;
+    gap: 20px;
+    height: 62px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.checkout .order__summary .more__info .pricing_icon {
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    margin: 12px;
+    border-radius: 50%;
+    background-color: #D4EEE9;
+}
+
+.checkout .order__summary .more__info .pricing_icon i {
+    color: #258675;
+    padding: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .checkout {
+        margin-top: 70px;
+    }
+
+    .checkout .block__payement_methode p {
+        font-size: 15px;
+    }
+
+    .checkout .block__payement_methode .item_choice_cart {
+        display: block;
+    }
+
+    .checkout .block__payement_methode .item_choice_cart .radio {
+        justify-content: initial;
+        margin-bottom: 15px;
+    }
+    .checkout .block__payement_methode .item_choice_cart .logo_payment {
+        justify-content: space-evenly;
+    }
+    .checkout .block__payement_methode .card__information {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .checkout .block__payement_methode .paymentName{
+        display: none;
+    }
+    .checkout .block__payement_methode p {
+        font-size: 12px;
+    }
+
+    .checkout .block__payement_methode .logo_payment_img {
+        max-height: 25px;
+        max-width: 35px;
+    }
+
+    .checkout .block__payement_methode .radio::before {
+        height: 7px;
+        width: 7px;
+    }
+
+    .checkout input[type="radio"]:checked + label .radio::before {
+        height: 6px;
+        width: 6px;
+    }    
+
+    .checkout .block__payement_methode .item_choice,
+    .credit_cart {
+        margin: auto;
+        gap: 5px;
+    }
+
+    .checkout .block__payement_methode .card__information input {
+        font-size: 14px;
+    }
+
+    .checkout .block__payement_methode .item_choice_cart .logo_payment {
+        gap: 1px;
+    }
+    .checkout .block__payement_methode .radio {
+        font-size: 15px;
+    }
+    .color-blue {
+        font-size: 14px;
+    }
+    .lock {
+        margin-top: 15px;
+    }
+    .checkout .order__summary .user_price {
+        font-size: 12px;
+    }
+    .checkout .order__summary .select_name {
+        height: 39px;
+    }
+    .checkout .order__summary .more__info {
+        width: 1;
+        grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+    }
+}

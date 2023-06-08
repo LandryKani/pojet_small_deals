@@ -1,0 +1,37 @@
+.popup__sms_shop {
+  margin: auto;
+  max-width: 600px;
+  min-height: max-content;
+  width: 100%;
+  background-color: #fff;
+}
+
+.color-red{
+  color: var(--color-secondary);
+}
+
+.popup__sms_shop .description{
+  font-size: 13px;
+  text-align: justify;
+}
+
+.popup__sms_shop .block__form label{
+  font-size: 13px;
+}
+.popup__sms_shop form label {
+  font-weight: 800;
+}
+
+.popup__sms_shop form textarea {
+  min-height: 100px;
+}
+
+.popup__sms_shop .text-field{
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 400px) {
+  .popup__sms_shop form label {
+    font-size: 20px;
+  }
+}

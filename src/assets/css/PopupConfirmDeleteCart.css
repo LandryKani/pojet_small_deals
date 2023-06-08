@@ -1,0 +1,9 @@
+
+.block_confirm_delete_order {
+    justify-content: space-around;
+}
+
+.block_confirm_delete_order_contain p {
+    font-weight: 400;
+    font-size: 20px;
+}

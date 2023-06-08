@@ -1,0 +1,32 @@
+.congratulation{
+    margin: 20% 20% 35%;
+    height: fit-content;
+    width: fit-content;
+    padding: 33px;
+    background-color: #f9f9f9;
+    text-align: justify;
+}
+.congratulation h1{
+    color: #29C6CF;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+.congratulation .last_phrase{
+    color: #29C6CF; 
+    margin-top: 20px;
+    font-weight: 600;
+}
+.congratulation p{
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.congratulation .last_phrase__or{
+    font-weight: 500;
+    color: black;
+}
+@media screen and (max-width:500px) {
+    .congratulation{
+        margin:auto;
+    }
+}
